@@ -22,7 +22,7 @@ namespace BITFINEX.API
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri($"https://api-pub.bitfinex.com/v2/trades/tBTCUSD/hist?limit={limit}&start={start}&end={end}&sort={sort}"),
+                RequestUri = new Uri($"https://api-pub.bitfinex.com/v2/trades/tBTCEUR/hist?limit={limit}&start={start}&end={end}&sort={sort}"),
 
             };
 
@@ -30,19 +30,21 @@ namespace BITFINEX.API
             {
                 try
                 {
-                    List<Trade> trades = new List<Trade>();
-
                     if (response.IsSuccessStatusCode)
                     {
-                        string body = response.Content.ReadAsStringAsync().Result;
+                        string body = await response.Content.ReadAsStringAsync();
 
-                        if (body != null)
+                        if (string.IsNullOrEmpty(body))
                         {
                             JArray tradesJson = (JArray)JsonConvert.DeserializeObject(body);
                             return GetTradeList(tradesJson);
                         }
 
-                        else return null;
+                        else
+                        {
+                            Console.WriteLine("No trade was found!");
+                            return null;
+                        }
                     }
                     else return null;
                 }
@@ -67,22 +69,15 @@ namespace BITFINEX.API
 
             try
             {
-                foreach (var t in tradesJSON)
-                {
-                    Trade trade = new Trade();
-                    trade.Id = (int)t[0];
-                    trade.Mts = (Int64)t[1];
-                    trade.Amount = (float)t[2];
-                    trade.Price = (float)t[3];
-                    trades.Add(trade);
-                }
+                trades = tradesJSON.AsEnumerable().Select(t => new Trade() { Id = (int)t[0], Mts = (Int64)t[1], Amount = (float)t[2], Price = (float)t[3] }).ToList();
+          
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
 
-            return (List<Trade>)trades.OrderBy(t => t.Price).ToList();
+            return trades;
         }
     }
 }

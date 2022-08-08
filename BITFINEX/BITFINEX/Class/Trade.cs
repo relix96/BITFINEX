@@ -25,15 +25,49 @@ namespace BITFINEX.Class
         /// <param name="trades"></param>
         /// <param name="limit"></param>
         /// <returns></returns>
-        public static float CalculateAverage(List<Trade> trades, int limit)
+        public static float CalculateAverage(List<Trade> trades)
         {
-            float average = 0;
-            foreach (Trade t in trades)
+            try
             {
-                average += t.Price;
+                return (from trade in trades select trade.Price).Average();
             }
-            return average / limit;
+
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return 0;
+            }
+
+
         }
+        public static float getMax(List<Trade> trades)
+        {
+            try
+            {
+                return (from trade in trades select trade.Price).Max();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return 0;
+            }
+            
+        }
+        public static float getMin(List<Trade> trades)
+        {
+            try
+            {
+                return (from trade in trades select trade.Price).Min();
+            }
+
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return 0;
+            }
+
+        }
+
 
     }
 
