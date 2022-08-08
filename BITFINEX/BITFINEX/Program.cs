@@ -19,7 +19,7 @@ while (true)
     Console.WriteLine("Name: BTC/EUR");
     Console.WriteLine($"Max Price: {Trade.getMax(trades)} EUR");
     Console.WriteLine($"Min Price: {Trade.getMin(trades)} EUR");
-    Console.WriteLine($"Average Price:{Trade.CalculateAverage(trades)} EUR \n");
+    Console.WriteLine($"Average Price: {Trade.CalculateAverage(trades)} EUR \n");
 
     Thread.Sleep(10000);
 

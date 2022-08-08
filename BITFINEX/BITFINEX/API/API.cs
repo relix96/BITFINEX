@@ -34,7 +34,7 @@ namespace BITFINEX.API
                     {
                         string body = await response.Content.ReadAsStringAsync();
 
-                        if (string.IsNullOrEmpty(body))
+                        if (!string.IsNullOrEmpty(body))
                         {
                             JArray tradesJson = (JArray)JsonConvert.DeserializeObject(body);
                             return GetTradeList(tradesJson);
