@@ -34,7 +34,6 @@ namespace BITFINEX.Class
 
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
                 return 0;
             }
 
@@ -48,7 +47,6 @@ namespace BITFINEX.Class
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
                 return 0;
             }
             
@@ -62,7 +60,6 @@ namespace BITFINEX.Class
 
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
                 return 0;
             }
 

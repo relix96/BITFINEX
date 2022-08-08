@@ -42,7 +42,7 @@ namespace BITFINEX.API
 
                         else
                         {
-                            Console.WriteLine("No trade was found!");
+                            Console.WriteLine("No trades was found!"); 
                             return null;
                         }
                     }
