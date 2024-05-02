@@ -34,3 +34,21 @@ C:\Users\zemar\Desktop\Repositorios\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\
 C:\Users\zemar\Desktop\Repositorios\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\BITFINEX.pdb
 C:\Users\zemar\Desktop\Repositorios\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\BITFINEX.genruntimeconfig.cache
 C:\Users\zemar\Desktop\Repositorios\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\ref\BITFINEX.dll
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\bin\Debug\net6.0\BITFINEX.exe
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\bin\Debug\net6.0\BITFINEX.deps.json
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\bin\Debug\net6.0\BITFINEX.runtimeconfig.json
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\bin\Debug\net6.0\BITFINEX.dll
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\bin\Debug\net6.0\BITFINEX.pdb
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\bin\Debug\net6.0\Json.Net.dll
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\BITFINEX.csproj.AssemblyReference.cache
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\BITFINEX.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\BITFINEX.AssemblyInfoInputs.cache
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\BITFINEX.AssemblyInfo.cs
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\BITFINEX.csproj.CoreCompileInputs.cache
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\BITFINEX.csproj.CopyComplete
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\BITFINEX.dll
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\refint\BITFINEX.dll
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\BITFINEX.pdb
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\BITFINEX.genruntimeconfig.cache
+C:\Users\zemar\OneDrive\Ambiente de Trabalho\BITFINEX\BITFINEX\BITFINEX\obj\Debug\net6.0\ref\BITFINEX.dll
